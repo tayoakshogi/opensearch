@@ -94,7 +94,7 @@ Outputs:
       Fn::GetAtt:
       - openSearchFunction
       - Arn
-  HelloWorldFunctionIamRole:
+  OpenSearchFunctionIamRole:
     Description: IAM Role used for the lambda function
     Value:
       Fn::GetAtt:
